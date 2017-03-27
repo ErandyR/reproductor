@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi reproductor</title>
+    <link rel="shortcut icon" type="image/x-icon" href="music-note.ico">
+  </head>
+  <body>
+    <progress id="barra-de-progreso" value="30" max="50"></progress>
+    <br>
+    <audio src="Vampire Weekend - A-Punk.mp3" type="audio/mpeg" id="miAudio">
+    </audio>
+
+    <button id="audioPlay" onclick="audioPlay();">Play</button>
+    <button id="audioPause" onclick="audioPause();">Pause</button>
+    <button id="audioStop" onclick="audioStop();">Stop</button>
+    <button id="audioVolumeUp" onclick="subirVolumen();"> Vol +</button>
+    <button id="audioVolumeDown" onclick="bajarVolumen();"> Vol -</button>
+    <button id="audioAvanzar" onclick="avanzarAudio();">avanza </button>
+    <button id="audioRetroceder" onclick="retrocederAudio();"> retroceder </button>
+
+    <script type="text/javascript" src="assets/js/javascript.js"></script>
+  </body>
+</html>
